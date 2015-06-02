@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		48A7EE8B1B1E316B006AFCCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A7EE8A1B1E316B006AFCCA /* main.m */; };
 		48A7EE8E1B1E316B006AFCCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A7EE8D1B1E316B006AFCCA /* AppDelegate.m */; };
-		48A7EE911B1E316B006AFCCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A7EE901B1E316B006AFCCA /* ViewController.m */; };
 		48A7EE941B1E316B006AFCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A7EE921B1E316B006AFCCA /* Main.storyboard */; };
 		48A7EE961B1E316B006AFCCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A7EE951B1E316B006AFCCA /* Images.xcassets */; };
 		48A7EE991B1E316B006AFCCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A7EE971B1E316B006AFCCA /* LaunchScreen.xib */; };
 		48A7EEA51B1E316C006AFCCA /* objective_c_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A7EEA41B1E316C006AFCCA /* objective_c_learningTests.m */; };
+		48A7EEB01B1E33F3006AFCCA /* LearningTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A7EEAF1B1E33F3006AFCCA /* LearningTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		48A7EE8A1B1E316B006AFCCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48A7EE8C1B1E316B006AFCCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48A7EE8D1B1E316B006AFCCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48A7EE8F1B1E316B006AFCCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48A7EE901B1E316B006AFCCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48A7EE931B1E316B006AFCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48A7EE951B1E316B006AFCCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48A7EE981B1E316B006AFCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		48A7EE9E1B1E316C006AFCCA /* objective c learningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objective c learningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A7EEA31B1E316C006AFCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48A7EEA41B1E316C006AFCCA /* objective_c_learningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objective_c_learningTests.m; sourceTree = "<group>"; };
+		48A7EEAE1B1E33F3006AFCCA /* LearningTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LearningTableViewController.h; path = ../LearningTableViewController.h; sourceTree = "<group>"; };
+		48A7EEAF1B1E33F3006AFCCA /* LearningTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LearningTableViewController.m; path = ../LearningTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				48A7EE8C1B1E316B006AFCCA /* AppDelegate.h */,
 				48A7EE8D1B1E316B006AFCCA /* AppDelegate.m */,
-				48A7EE8F1B1E316B006AFCCA /* ViewController.h */,
-				48A7EE901B1E316B006AFCCA /* ViewController.m */,
+				48A7EEAE1B1E33F3006AFCCA /* LearningTableViewController.h */,
+				48A7EEAF1B1E33F3006AFCCA /* LearningTableViewController.m */,
 				48A7EE921B1E316B006AFCCA /* Main.storyboard */,
 				48A7EE951B1E316B006AFCCA /* Images.xcassets */,
 				48A7EE971B1E316B006AFCCA /* LaunchScreen.xib */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48A7EE911B1E316B006AFCCA /* ViewController.m in Sources */,
 				48A7EE8E1B1E316B006AFCCA /* AppDelegate.m in Sources */,
+				48A7EEB01B1E33F3006AFCCA /* LearningTableViewController.m in Sources */,
 				48A7EE8B1B1E316B006AFCCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

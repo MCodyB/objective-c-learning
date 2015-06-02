@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LearningTableViewController.h
 //  objective c learning
 //
 //  Created by M. Cody Bertolino on 6/2/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LearningTableViewController : UITableViewController
 
 @end
-
