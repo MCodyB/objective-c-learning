@@ -56,8 +56,10 @@
 
     if (indexPath.section == 0) {
         cell.textLabel.text = @"I am in section 0";
+        cell.backgroundColor = [UIColor redColor];
     } else if (indexPath.section == 1) {
         cell.textLabel.text =  @"Another";
+        cell.backgroundColor = [UIColor yellowColor];
     } else {
         cell.textLabel.text = [NSString stringWithFormat:@"Cell %li", (long)indexPath.row];
     }
